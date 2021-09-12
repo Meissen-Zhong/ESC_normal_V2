@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Clion_ADC_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Clion_ADC_test.elf">
+				<Option output="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Clion_ADC_test.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F334x8"/>
+					<Add directory="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/src"/>
+					<Add directory="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Inc"/>
+					<Add directory="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Device/ST/STM32F3xx/Include"/>
+					<Add directory="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include"/>
+					<Add directory="d:\program file\arm_gun_tool\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="d:\program file\arm_gun_tool\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="d:\program file\arm_gun_tool\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="d:\program file\arm_gun_tool\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="d:\program file\arm_gun_tool\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="d:\program file\arm_gun_tool\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Clion_ADC_test.elf"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Clion_ADC_test.elf/fast">
+				<Option output="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Clion_ADC_test.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F334x8"/>
+					<Add directory="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/src"/>
+					<Add directory="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Inc"/>
+					<Add directory="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc"/>
+					<Add directory="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Device/ST/STM32F3xx/Include"/>
+					<Add directory="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include"/>
+					<Add directory="d:\program file\arm_gun_tool\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="d:\program file\arm_gun_tool\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="d:\program file\arm_gun_tool\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="d:\program file\arm_gun_tool\bin\../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="d:\program file\arm_gun_tool\bin\../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="d:\program file\arm_gun_tool\bin\../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Clion_ADC_test.elf/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f334x8.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f3xx.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_adc.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_adc_ex.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_can.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma_ex.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_exti.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_flash_ex.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio_ex.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_i2c_ex.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc_ex.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart_ex.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_adc_ex.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart_ex.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/STM32F334C8Tx_FLASH.ld">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/inc/Cmath.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/inc/CurrentSensing.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/inc/SVPWM.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/inc/communication.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/inc/foc.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/inc/midtask.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/inc/positionsensor.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/main.h.bak">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/src/Cmath.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/src/MotoConfig.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/src/SVPWM.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/src/communication.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/src/currentsense.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/src/foc.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/src/lut.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/src/midtask.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/Firmware/src/positionsensor.h">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/adc.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/can.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/dma.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/gpio.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/main.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/retarget.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/stm32f3xx_hal_msp.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/stm32f3xx_hal_timebase_tim.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/stm32f3xx_it.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/sys.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/syscalls.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/system_stm32f3xx.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/tim.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/Src/usart.c">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/startup/startup_stm32f334x8.s">
+			<Option target="Clion_ADC_test.elf"/>
+		</Unit>
+		<Unit filename="D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,38 @@
+1. GPIO:
+    4 GPIO is uesd
+    1) PA15 ENABLE  控制drv8302全局通断的
+    2) PB3  DC_CAL  控制电流采样校准
+    3) PB4  M_PWM   控制PWM的工作模式
+    4) PB11 LED     点亮LED
+2. ADC1
+    1）使用DMA：Normal，word
+    2）Channel 1 RANK3；Channel 2 RANK2；Channel 3 RANK1；
+    3）Interrupt on：Priority2
+3. ADC2
+    1）使用DMA：Normal，word
+    2）Channel 1 RANK1；Channel 2 RANK3；
+    3）Interrupt on：Priority2
+4. USART1
+    1）PB7，PB6（非默认引脚）
+    2）Baud Rate：115200
+    3）DMA：Tx，Rx。Normal，BYTE
+    4) Interrput on:Priority1
+5. CAN
+    # 尚未明确调试，配置未知
+
+6. TIM1
+    1）Interrupt on：Priority3
+    2）3 Channel PWM comparad output
+    3）Reload    10000
+    4）PRESCALE  0
+    5）CENTER_ALigned Mode
+7. TIM6
+    1) simple counter
+    2) PRESCALE 71
+    3) RELOAD   50//在稳定版本中被改为50了，但是在CUDEMX中为5000
+    4）Interrput on：Priority3
+8. DMA
+    Priority
+    1）ADC1：Medium
+    2）ADC2：High
+    3）USART1：Low

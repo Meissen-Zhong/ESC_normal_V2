@@ -1,0 +1,3 @@
+D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/CMakeFiles/Clion_ADC_test.elf.dir
+D:/Flies/project/ESC_project_backup/ESC_V2_3508/Clion_ADC_test/cmake-build-debug/CMakeFiles/edit_cache.dir
